@@ -1,1 +1,0 @@
-"use strict";window.onload=function(){var t=document.getElementById("nav");document.getElementById("menu").onclick=function(){this.classList.toggle("close"),t.classList.toggle("open")}};
