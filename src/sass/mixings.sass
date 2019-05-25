@@ -1,0 +1,9 @@
+=gradient($color-1, $color-2)
+  background: -webkit-linear-gradient($color-1, $color-2)
+  background: -moz-linear-gradient($color-1, $color-2)
+  background: -o-linear-gradient($color-1, $color-2)
+  background: linear-gradient($color-1, $color-2)
+
+=breakpoint($size)
+  @media screen and (min-width: $size)
+    @content

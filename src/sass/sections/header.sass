@@ -1,0 +1,135 @@
+.header
+    +breakpoint($sm-breakpoint)
+        display: grid
+        grid-template-columns: 95px auto
+        grid-column-gap: 15px
+        align-items: center
+
+    +breakpoint($md-breakpoint)
+        grid-template-columns: 160px auto
+        grid-column-gap: 30px
+    
+
+    & > .hamburguer
+        height: 4px
+        margin: 0 auto
+        background: $blue
+        width: 20px
+        position: relative
+        top: calc(50% - 2px)
+        position: fixed
+        top: 40px
+        right: 30px
+        
+        &:before, &:after
+            content: ' '
+            position: absolute
+            height: 4px
+            width: 20px
+            background: $blue
+
+        &:after
+            top: -8px
+
+        &:before
+            top: 8px
+
+
+        &.close
+            background: transparent
+            top: 25px
+            right: 20px
+            z-index: 2
+
+            &:before, &:after
+                background: #FFF
+
+            &:after
+                top: 0px
+                transform: rotateZ(-45deg)
+
+            &:before
+                top: 0px
+                transform: rotateZ(45deg)
+
+        +breakpoint($sm-breakpoint)
+            display: none
+
+    & > .logo
+        color: $blue
+        font-size: 40px
+        line-height: 50px
+        font-family: 'Leckerli One', cursive
+
+        +breakpoint($sm-breakpoint)
+            font-size: 30px
+            line-height: 40px
+
+        +breakpoint($md-breakpoint)
+            font-size: 50px
+            line-height: 60px
+
+    & > .nav
+        position: fixed
+        top: 0
+        left: 0
+        bottom: 0
+        width: 100%
+        background: $blue
+        padding-top: 40px
+        display: none
+
+        &.open
+            display: block
+
+        & > .actions
+            @media screen and (max-width: 767px)
+                width: 100%
+                position: absolute
+                bottom: 0
+                padding: 20px
+
+                & > .blue
+                    border-color: #FFF
+                    background: #FFF
+                    color: $blue
+                    line-height: 45px
+                    margin-top: 20px
+                    font-size: 20px
+
+                    &.outline
+                        background: transparent
+                        color: #FFF
+
+            +breakpoint($sm-breakpoint)
+                float: right
+
+        & > a
+            display: block
+            text-align: center
+            color: $grey-light
+            font-size: 24px
+            padding-top: 20px
+
+        +breakpoint($sm-breakpoint)
+            display: block
+            position: inherit
+            background: transparent
+            padding-top: 0px
+
+            & > a, & > .actions > div
+                display: inline-block
+                vertical-align: top
+
+            & > a
+                color: $grey-light-2
+                font-size: 15px
+                margin-right: 15px
+                line-height: 35px
+                padding-top: 0
+
+        +breakpoint($md-breakpoint)
+            & > a
+                font-size: 20px
+                margin-right: 30px
+                line-height: 45px

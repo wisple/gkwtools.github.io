@@ -1,0 +1,26 @@
+{
+  "name": "wisple.github.io",
+  "version": "1.0.0",
+  "description": "Wisple WebSite",
+  "main": "index.js",
+  "scripts": {
+    "build": "gulp build",
+    "serve": "gulp serve"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wisple/wisple.github.io.git"
+  },
+  "author": "Guilherme Diego",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wisple/wisple.github.io/issues"
+  },
+  "homepage": "https://github.com/wisple/wisple.github.io#readme",
+  "dependencies": {
+    "gulp": "^3.X",
+    "gulp-static-gen": "^1.0.2",
+    "lodash.set": "^4.3.2",
+    "showdown": "^1.9.0"
+  }
+}
