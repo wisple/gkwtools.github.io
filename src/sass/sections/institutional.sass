@@ -1,7 +1,92 @@
 .institutional
     +gradient(#f2f2f2, #fff)
 
+    & > .container > div
+        margin-bottom: 30px
+        padding-bottom: 30px
+        position: relative
+
+        &:after
+            content: ". . ."
+            color: $grey
+            font-size: 46px
+            position: absolute
+            line-height: 33px
+            bottom: -3px
+            width: 100%
+            display: block
+            text-align: center
+
+        &:last-child
+            margin-bottom: 0
+            padding-bottom: 0
+
+            &:after
+                display: none
+
+    .features
+        +breakpoint($md-breakpoint)
+            display: grid
+            grid-template-columns: 30% auto
+            grid-column-gap: 20px
+
+
+        & > .content > div
+            display: none
+
+            &.active
+                display: block
+
+        & > .list
+            overflow: hidden
+            height: 50px
+            margin-bottom: 20px
+
+            & > div
+                line-height: 50px
+                display: inline-block
+                width: 100%
+                text-align: center
+                font-size: 26px
+                
+                +breakpoint($md-breakpoint)
+                    font-size: 18px
+                    line-height: 45px
+                    width: 100%
+                    border: 2px solid $blue
+                    border-radius: 10px
+                    color: $blue
+                    margin-bottom: 20px
+                    cursor: pointer
+
+                    &:last-child
+                        margin-bottom: 0
+
+                    &.active
+                        background: $blue
+                        color: #f2f2f2
+
+
+            +breakpoint($md-breakpoint)
+                overflow: inherit
+                height: auto
+                margin-bottom: 0px
 
     .about
-        display: grid
-        grid-template-columns: 50% 50%
+        h2
+            font-size: 26px
+            color: $blue
+            padding: 0 0 20px
+
+        p
+            color: $grey
+            margin-bottom: 15px
+
+            &:last-child
+                margin-bottom: 0
+
+        +breakpoint($md-breakpoint)
+            display: grid
+            grid-template-columns: 50% 50%
+
+        

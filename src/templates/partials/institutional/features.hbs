@@ -1,0 +1,16 @@
+<div class="features" id='features'>
+    <div class="list">
+        {{#each vantagens}}
+            <div data-select='{{meta.chave}}'>
+                {{ meta.nome }}
+            </div>
+        {{/each}}
+    </div>
+    <div class='content'>
+        {{#each vantagens}}
+            <div data-frame='{{meta.chave}}'>
+                {{{ html }}}
+            </div>
+        {{/each}}
+    </div>
+</div>
