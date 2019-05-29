@@ -1,8 +1,10 @@
 ---
-nome: Teste de Nome
-chave: teste-de-nome
+nome: SMS Inteligênte
+chave: inteligente
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec rutrum semper congue. Curabitur semper molestie consequat. Quisque porta sagittis purus. Suspendisse in sodales magna, et gravida lorem. Cras orci turpis, hendrerit vel odio sit amet, molestie tincidunt tortor. Nulla et augue eget enim feugiat ultricies vel ut est. Quisque tempor purus non feugiat faucibus. Cras tincidunt, lectus sed tempor interdum, felis felis viverra ante, eu tincidunt odio mi vitae odio. Maecenas malesuada luctus mi. Duis non malesuada mi. Nulla lorem est, posuere nec nunc et, sollicitudin malesuada libero.
+O SMS é uma maneira rápida e personalizada de se comunicar com clientes, colaboradores e parceiros. Cerca de 90% dos SMS são lidos em até 3 minutos e 60% alcançam os resultados desejados.
 
-Donec eu velit sit amet nisi sodales rhoncus. Nam elit urna, auctor nec nunc in, convallis tincidunt mauris. Sed placerat nunc et lacus venenatis rhoncus. Morbi eu nisl pretium mauris iaculis fringilla sit amet nec eros. Etiam convallis feugiat dui, vitae dapibus nulla faucibus ac. Aenean posuere sem quis justo sagittis malesuada.
+Você pode utilizar esta ferramentas de várias maneiras diferentes, de acordo com seus objetivos, enviando promoções, cupons de desconto, lembretes, boletos, códigos de rastreio, confirmação de consultas e muito mais. 
+Faça um TESTE GRATUITO agora mesmo e comprove que a Wisple é a maneira mais intelingente de enviar SMS. 
+

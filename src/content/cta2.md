@@ -3,4 +3,4 @@ cta: Quero Testar!
 link: /
 ---
 
-Alguma frase que remeta que nosso cliente é um campeão e que ele ta ganhando muitas coisas em ser nosso cliente
+Muito mais do que enviar SMS, a Wisple disponibiliza dados e resultados reais para você investir no melhor para sua empresa! Faça um TESTE GRATUITO!

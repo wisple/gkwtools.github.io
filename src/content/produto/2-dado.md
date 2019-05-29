@@ -2,4 +2,4 @@
 gif: dado.gif
 ---
 
-Algum chamaris para complementar o título totalmente chamativo por que queremos vender muitos SMSs haha :)
+Transforme seu investimento em estratégia! A inteligência artificial Wisple coleta dados para potencializar sua margem de acerto com a ferramenta, auxiliando na melhor forma de envio. 

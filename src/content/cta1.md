@@ -3,4 +3,4 @@ cta: Quero Testar!
 link: /
 ---
 
-Alguma frase que remeta que nosso cliente é um campeão e que ele ta ganhando muitas coisas em ser nosso cliente
+Envie SMS de forma simples e eficiênte! Venha para a Wisple e use a Inteligência Artificial a seu favor!
