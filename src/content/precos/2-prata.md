@@ -1,7 +1,8 @@
-### Prata
+### Gold
 
-- Alguma item 1
-- Alguma item 2
-- Alguma item 3
-- Alguma item 4
-- Alguma item 5
+- De 30mil a 100 mil SMS -> R$0.055
+
+
+### Semestral
+
+- R$540,00 a vista ou 6x R$95,00

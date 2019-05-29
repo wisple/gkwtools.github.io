@@ -1,8 +1,8 @@
-### Ouro
+### Diamond
 
-- Alguma item 1
-- Alguma item 2
-- Alguma item 3
-- Alguma item 4
-- Alguma item 5
-- Alguma item 6
+- De 100mil a 500 mil SMS -> R$0,045
+
+
+### Anual
+
+- R$920,00 a vista ou 12x de R$78,00
