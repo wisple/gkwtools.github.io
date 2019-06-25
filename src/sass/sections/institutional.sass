@@ -1,9 +1,12 @@
 .institutional
     +gradient(#f2f2f2, #fff)
 
+    & > .container
+        padding: 50px 20px
+
     & > .container > div
-        margin-bottom: 30px
-        padding-bottom: 30px
+        margin-bottom: 50px
+        padding-bottom: 50px
         position: relative
 
         &:after
@@ -28,7 +31,7 @@
         +breakpoint($md-breakpoint)
             display: grid
             grid-template-columns: 30% auto
-            grid-column-gap: 20px
+            grid-column-gap: 50px
 
 
         & > .content > div
@@ -37,6 +40,13 @@
 
             &.active
                 display: block
+
+            p
+                margin-bottom: 20px
+            
+            ul
+                margin-bottom: 20px
+                margin-left: 25px
 
         & > .list
             overflow: hidden
@@ -77,6 +87,9 @@
                 margin-bottom: 0px
 
     .about
+        img
+            width: 90%
+
         h2
             font-size: 26px
             color: $blue
@@ -96,6 +109,7 @@
         +breakpoint($md-breakpoint)
             display: grid
             grid-template-columns: 50% 50%
+            align-items: center
 
 .list
     &:after, &:before
