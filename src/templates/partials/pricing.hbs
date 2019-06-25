@@ -3,6 +3,22 @@
         <h3>Preço</h3>
         <div>
             {{#each precos}}
+                <div class="card sms-price">
+                    <div class="range">
+                        De {{meta.inicio}} mil até {{meta.fim}} mil SMS
+                    </div>
+                    <div class="valor {{#if meta.promocional}}promo{{/if}}">
+                        <span>R$ {{meta.valor}}</span>
+                    </div>
+                </div>
+            {{/each}}
+        </div>
+    </div>
+
+    <div class="container">
+        <h3>Wisple Inteligente</h3>
+        <div>
+            {{#each inteligente}}
                 <div class="card">
                     {{{ html }}}
                 </div>
