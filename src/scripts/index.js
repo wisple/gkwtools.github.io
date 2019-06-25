@@ -9,7 +9,7 @@ window.onload = function () {
     }
 
     // Features
-    const featureSection = document.getElementById('features');
+    const featureSection = document.getElementById('vantagens');
     const featureBtns = featureSection.querySelectorAll('.list div');
     const featureFrames = featureSection.querySelectorAll('.content div');
 

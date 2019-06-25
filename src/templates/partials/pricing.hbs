@@ -1,14 +1,14 @@
-<div class="price">
+<div class="price" id="preco">
     <div class="container">
         <h3>Preço</h3>
         <div>
             {{#each precos}}
                 <div class="card sms-price">
                     <div class="range">
-                        De {{meta.inicio}} mil até {{meta.fim}} mil SMS
+                        De <span>{{meta.inicio}} mil</span> até <span>{{meta.fim}} mil</span> SMS
                     </div>
-                    <div class="valor {{#if meta.promocional}}promo{{/if}}">
-                        <span>R$ {{meta.valor}}</span>
+                    <div class="value {{#if meta.promocional}}promo{{/if}}">
+                        <span>R$</span> {{meta.valor}}
                     </div>
                 </div>
             {{/each}}

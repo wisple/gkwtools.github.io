@@ -46,6 +46,10 @@ gulpStatic({
     customWatchers: [
         { files: './src/content/**/*', tasks: ['content', 'handlebars'] }
     ],
+    move: [
+        { input: './src/font/**/*', output: './dist/assets/font' },
+        { input: './src/static/**/*', output: './dist' }
+    ],
     css: {
         input: './src/sass/index.sass',
         output: './dist/assets/css',

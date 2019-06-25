@@ -8,6 +8,9 @@
         & > p, & > a
             margin-bottom: 20px
 
+            +breakpoint($md-breakpoint)
+                margin-bottom: 0px
+
             &:last-child
                 margin-bottom: 0
 
@@ -21,12 +24,22 @@
                 display: block
                 margin-bottom: 0
 
+            & > div
+                display: block
+                position: relative
 
+                & > img
+                    position: absolute
+                    width: 90px
+                    left: calc(50% - 45px)
 
     &.blue
         background: $blue
 
         & > .container
+            & > div > img
+                top: -45px
+
             +breakpoint($md-breakpoint)
                 display: grid
                 grid-template-columns: 150px auto 300px
@@ -36,6 +49,9 @@
         background: $grey
 
         & > .container
+            & > div > img
+                bottom: -45px
+
             +breakpoint($md-breakpoint)
                 display: grid
                 grid-template-columns: 300px auto 150px
