@@ -4,8 +4,27 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Wisple - Seu SMS Inteligente</title>
-    <link rel="stylesheet" href="assets/css/index.css">
+
+    <title>{{meta.title}}</title>
+
+    <meta name="description" content="{{meta.description}}">
+    <meta name="keywords" content="{{meta.keywords}}">
+    <meta name="robots" content="index,follow">
+    <meta name="DC.title" content="{{meta.title}}">
+
+    <meta property="og:locale" content="pt_br">
+    <meta property="og:url" content="https://wisple.app/">
+    <meta property="og:title" content="{{meta.title}}">
+    <meta property="og:site_name" content="Wisple">
+    <meta property="og:description" content="{{meta.description}}">
+    <meta property="og:image" content="https://wisple.app/assets/images/cover.png">
+    <meta property="og:type" content="website">
+
+    <meta name="twitter:card" content="summary"></meta>
+    <meta name="twitter:site" content="@wispleapp"></meta>
+    <meta name="twitter:card" content="@wispleapp"></meta>
+
+    <link rel="canonical" href="https://wisple.app/">
 
     <link rel="apple-touch-icon" sizes="57x57" href="/assets/images/fav/apple-icon-57x57.png">
     <link rel="apple-touch-icon" sizes="60x60" href="/assets/images/fav/apple-icon-60x60.png">
@@ -21,24 +40,101 @@
     <link rel="icon" type="image/png" sizes="96x96" href="/assets/images/fav/favicon-96x96.png">
     <link rel="icon" type="image/png" sizes="16x16" href="/assets/images/fav/favicon-16x16.png">
     <link rel="manifest" href="/manifest.json">
+
     <meta name="msapplication-TileColor" content="#4bcffa">
     <meta name="msapplication-TileImage" content="/assets/images/fav/ms-icon-144x144.png">
     <meta name="theme-color" content="#4bcffa">
 
+    <style>
+        #load {
+            position: fixed;
+            top: 0;
+            bottom: 0;
+            width: 100%;
+            display: flex;
+            align-items: center;
+            background: #fdfdfd;
+            color: #0FC4FA;
+            justify-content: center;
+            z-index: 10;
+        }
+    </style>
+
 </head>
 <body>
-    {{> header }}
-    {{> main }}
-    {{> product }}
-    {{> cta-blue }}
-    {{> institutional }}
-    {{> pricing }}
-    {{> cta-grey }}
-    {{> footer }}
+    <h1 style="display:none"> {{meta.titleAlternative}} </h1>
 
-    <script src="/assets/scripts/index.js"></script>
-    <script type="text/javascript" id="hs-script-loader" async defer src="//js.hs-scripts.com/5878794.js"></script>
-    <script async src="https://www.googletagmanager.com/gtag/js?id=AW-734651111"></script>
+    <div id="load">
+        carregando...
+    </div>
+    <div>
+        {{> header }}
+        {{> main }}
+        {{> product }}
+        {{> cta-blue }}
+        {{> institutional }}
+        {{> pricing }}
+        {{> cta-grey }}
+        {{> footer }}
+    </div>
+    <div data-src="/assets/scripts/index.js"></div>
+    <div data-src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll@15/dist/smooth-scroll.polyfills.min.js"></div>
+    <div id="hs-script-loader" data-src="//js.hs-scripts.com/5878794.js"></div>
+    <div data-src="https://www.googletagmanager.com/gtag/js?id=AW-734651111"></div>
+    <script>
+        window.onload = function () {
+            const head = document.getElementsByTagName('head')[0];
+            const images = document.querySelectorAll('[data-img]');
+            const gifs = document.querySelectorAll('[data-style]');
+            const scripts = document.querySelectorAll('[data-src]');
+            const maps = document.getElementById('maps');
+
+            const cssSheet = document.createElement('link');
+            cssSheet.rel = 'stylesheet';
+            cssSheet.href = '/assets/css/index.css';
+
+            head.appendChild(cssSheet);
+
+            setTimeout(() => {
+                document.body.removeChild(
+                    document.getElementById('load')
+                )
+
+                Array.from(scripts).forEach((scriptInfo) => {
+                    const scriptEl = document.createElement('script');
+                    scriptEl.src = scriptInfo.dataset.src;
+                    scriptEl.id = scriptInfo.id;
+
+                    document.body.removeChild(scriptInfo);
+                    document.body.appendChild(scriptEl);
+                });
+
+                Array.from(images).forEach((imagesInfo) => {
+                    const imgEl = document.createElement('img');
+                    imgEl.src = imagesInfo.dataset.img;
+                    imgEl.alt = imagesInfo.dataset.alt;
+
+                    imagesInfo.parentNode.prepend(imgEl);
+                    imagesInfo.parentNode.removeChild(imagesInfo);
+                });
+
+                Array.from(gifs).forEach((gif) => {
+                    gif.style = gif.dataset.style;
+                });
+
+                const iframe = document.createElement('iframe');
+                iframe.src = 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3704.656070137298!2d-48.21210378550604!3d-21.793568104572586!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94b8f1887a4c9a99%3A0xd2b619efd96feb76!2sAv.+Romulo+Lupo%2C+1487+-+Jardim+Universal%2C+Araraquara+-+SP%2C+14801-700!5e0!3m2!1sen!2sbr!4v1561483044611!5m2!1sen!2sbr'
+                iframe.width = '350';
+                iframe.height = '240';
+                iframe.frameborder = '0';
+                iframe.style = 'border:0';
+                iframe.allowFullscreen = true;
+                iframe.title = 'Nossa localização no Google Maps'
+
+                maps.parentNode.replaceChild(iframe, maps)
+            }, 400);
+        }
+    </script>
     <script> window.dataLayer = window.dataLayer || []; function gtag(){dataLayer.push(arguments);} gtag('js', new Date()); gtag('config', 'AW-734651111'); </script>
 </body>
 </html>

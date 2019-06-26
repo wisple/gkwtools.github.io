@@ -7,3 +7,13 @@
 =breakpoint($size)
   @media screen and (min-width: $size)
     @content
+
+=keyframes($name)
+  @-webkit-keyframes #{$name}
+    @content
+  @-moz-keyframes #{$name}
+    @content
+  @-ms-keyframes #{$name}
+    @content
+  @keyframes #{$name}
+    @content

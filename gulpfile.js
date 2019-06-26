@@ -76,7 +76,7 @@ gulpStatic({
         config: {
             interlaced: true,
             progressive: true,
-            optimizationLevel: 5,
+            optimizationLevel: 6,
             svgoPlugins: [{removeViewBox: true}]
         }
     },
@@ -84,5 +84,8 @@ gulpStatic({
         input: './src/scripts/index.js',
         output: './dist/assets/scripts/',
         watch: './src/scripts/**/*',
+    },
+    server: {
+        indexPath: 'index.html'
     }
 });

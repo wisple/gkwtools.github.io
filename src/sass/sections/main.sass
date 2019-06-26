@@ -1,3 +1,31 @@
++keyframes(sms1)
+    0%
+        top: 400px
+        opacity: 0
+
+    100%
+        top: 15px
+        opacity: 1
+
++keyframes(sms2)
+    0%
+        top: 400px
+        opacity: 0
+
+    100%
+        top: 160px
+        opacity: 1
+
+
++keyframes(sms3)
+    0%
+        top: 400px
+        opacity: 0
+
+    100%
+        top: 225px
+        opacity: 1
+
 .main
     padding: 100px 20px
     overflow: hidden
@@ -104,6 +132,15 @@
     grid-column: 1 / 3
     position: relative
     z-index: 3
+        
+    & > div:nth-child(1)
+        animation: sms1 3s forwards 
+
+    & > div:nth-child(2)
+        animation: sms2 2s forwards 1s 
+
+    & > div:nth-child(3)
+        animation: sms3 1s forwards 2s
 
 .button
     position: relative
@@ -128,17 +165,19 @@
 .sms
     padding: 15px
     width: 75%
-    margin: 10px 20px 0 auto
     background: transparentize($blue, 0.7)
     border-radius: 10px
     font-size: 14px
     text-align: justify
     color: #4d6973
-
-    &:first-child
-        margin-top: 20px
+    position: absolute
+    left: inherit
+    right: 15px
+    top: 400px
+    opacity: 0
 
 .sms-r 
     @extend .sms
-    margin: 10px auto 0 20px
     background: transparentize($grey, 0.7)
+    left: 15px
+    right: inherit
