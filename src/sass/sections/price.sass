@@ -3,53 +3,134 @@
     padding: 30px 0
 
     & > .container
-        & > h3
+        h3
             font-size: 26px
             color: $grey
-            padding-top: 10px
+            padding: 10px 0
             text-align: center
 
             +breakpoint($sm-breakpoint)
                 text-align: left
 
-        .value
-            font-size: 50px
-            text-align: center
-            display: block
-            font-weight: 600
-            line-height: 45px
-            color: $blue
-
-            & > span
-                font-size: 20px
-                font-weight: 400
-    
-        .range
-            color: #808e9b
-            text-align: center
-
-            & > span
-                font-size: 20px
-                font-weight: 400
-
-        & > div
-            padding: 20px 0
-
+        &.inteligence
             +breakpoint($sm-breakpoint)
                 display: grid
-                grid-template-columns: 30% 30% 30%
-                justify-content: space-between
+                grid-template-columns: 50% auto
+                grid-column-gap: 30px
 
-            & > .card
-                background: #FFF
+            .text > p
+                margin-bottom: 15px
+
+            .card
+                background: #fff
                 border-radius: 10px
-                padding: 50px 30px
-                box-shadow: 0 0 7px 1px transparentize($grey, 0.75)
+                padding: 15px 20px
                 margin-bottom: 20px
-
-                &:last-child
-                    margin-bottom: 0px
+                box-shadow: 0 0 7px 1px rgba(128,142,155,.25)
+                opacity: 0.6
+                text-align: center
 
                 +breakpoint($sm-breakpoint)
-                    margin-bottom: 0px
+                    display: grid
+                    grid-template-columns: auto 52%
+                    align-items: center
+                    text-align: left
+
+                .header
+                    font-size: 14px
+                    font-weight: 600
+                    color: #808e9b
+
+                .value
+                    display: block
+                    font-weight: 600
+                    color: #4bcffa
+
+                    & > span
+                        font-size: 80%
+                        font-weight: 400
+
+                .complement
+                    font-size: 14px
+                    font-weight: 400
+                    color: #808e9b
+                    text-align: justify
+
+                    & > span
+                        color: #05c46b
+                        font-weight: 400
+        
+                &.small
+                    padding: 15px 20px
+                    opacity: 0.7
+
+                    .value
+                        font-size: 18px
+                        line-height: 20px
+
+                &.medium
+                    padding: 20px 20px
+                    opacity: 0.8
+
+                    .value
+                        font-size: 20px
+                        line-height: 24px
+
+                &.big
+                    padding: 25px 20px
+                    opacity: 0.9
+
+                    .value
+                        font-size: 28px
+                        line-height: 26px
+
+                &.biggest
+                    padding: 30px 20px
+                    opacity: 1
+
+                    .value
+                        font-size: 36px
+                        line-height: 40px
+
+        &.values
+            .value
+                font-size: 50px
+                text-align: center
+                display: block
+                font-weight: 600
+                line-height: 45px
+                color: $blue
+
+                & > span
+                    font-size: 20px
+                    font-weight: 400
+        
+            .range
+                color: #808e9b
+                text-align: center
+
+                & > span
+                    font-size: 20px
+                    font-weight: 400
+
+            & > div
+                padding: 20px 0
+
+                +breakpoint($sm-breakpoint)
+                    display: grid
+                    grid-template-columns: 30% 30% 30%
+                    justify-content: space-between
+
+                & > .card
+                    background: #FFF
+                    border-radius: 10px
+                    padding: 50px 30px
+                    box-shadow: 0 0 7px 1px transparentize($grey, 0.75)
+                    margin-bottom: 20px
+
+                    &:last-child
+                        margin-bottom: 0px
+
+                    +breakpoint($sm-breakpoint)
+                        margin-bottom: 0px
 

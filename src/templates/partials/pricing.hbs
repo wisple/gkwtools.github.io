@@ -1,5 +1,5 @@
 <div class="price" id="preco">
-    <div class="container">
+    <div class="container values">
         <h3>Preço</h3>
         <div>
             {{#each precos}}
@@ -15,14 +15,52 @@
         </div>
     </div>
 
-    <div class="container">
-        <h3>Wisple Inteligente</h3>
+    <div class="container inteligence">
+        <div class="text">
+            {{{ inteligencia.html }}}
+        </div>
         <div>
-            {{#each inteligente}}
-                <div class="card">
-                    {{{ html }}}
+            <div class="card small">
+                <div>
+                    <div class="header">Mensal</div>
+                    <div class="value"> R$ {{inteligencia.meta.precoMensal}}<span>/mês</span></div>
                 </div>
-            {{/each}}
+            </div>
+            <div class="card medium">
+                <div>
+                    <div class="header">Trimestral</div>
+                    <div class="value"> R$ {{getValueFromDiscount inteligencia.meta.precoMensal inteligencia.meta.discontoTrimestral}}<span>/mês</span></div>
+                </div>
+                <div class="complement">
+                    Assinando esse plano você estará economizando um total de
+                    <span>
+                        R$ {{getDiscountPrice inteligencia.meta.precoMensal inteligencia.meta.discontoTrimestral 3}}
+                    </span>
+                </div>
+            </div>
+            <div class="card big">
+                <div>
+                    <div class="header">Semestral</div>
+                    <div class="value"> R$ {{getValueFromDiscount inteligencia.meta.precoMensal inteligencia.meta.discontoSemestral}}<span>/mês</span></div>
+                </div>
+                <div class="complement"> 
+                    Assinando esse plano você estará economizando um total de
+                    <span>
+                        R$ {{getDiscountPrice inteligencia.meta.precoMensal inteligencia.meta.discontoSemestral 6}}
+                    </span>
+                </div>
+            </div>
+            <div class="card biggest">
+                <div>
+                    <div class="header">Anual</div>
+                    <div class="value"> R$ {{getValueFromDiscount inteligencia.meta.precoMensal inteligencia.meta.discontoAnual}}<span>/mês</span></div>
+                </div>
+                <div class="complement"> 
+                    Assinando esse plano você estará economizando um total de
+                    <span>
+                        R$ {{getDiscountPrice inteligencia.meta.precoMensal inteligencia.meta.discontoAnual 12}}</div>
+                    </span>
+            </div>
         </div>
     </div>
 </div>
