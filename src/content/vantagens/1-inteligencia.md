@@ -1,5 +1,5 @@
 ---
-nome: SMS Inteligênte
+nome: SMS Inteligente
 chave: inteligente
 ---
 

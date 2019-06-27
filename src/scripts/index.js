@@ -7,10 +7,25 @@ if ('serviceWorker' in navigator) {
 const nav = document.getElementById('nav');
 const menu = document.getElementById('menu');
 
-new SmoothScroll('a[href*="#"]', {
-	speed: 500,
-	speedAsDuration: true
-});
+let smoothtries = 0;
+let timeout = null;
+function setSmoothScroll () {
+    if (SmoothScroll in window) {
+        new window.SmoothScroll('a[href*="#"]', {
+            speed: 500,
+            speedAsDuration: true,
+        });
+    } else {
+        if (smoothtries < 3) {
+            smoothtries = smoothtries + 1;
+            setTimeout(function () {
+                setSmoothScroll();
+            }, 1000)
+        } else {
+            clearTimeout(timeout);
+        }
+    }
+}
 
 menu.onclick = function () {
     this.classList.toggle('close');
@@ -19,7 +34,9 @@ menu.onclick = function () {
 
 // Features
 const featureSection = document.getElementById('vantagens');
-const featureBtns = featureSection.querySelectorAll('.list div');
+const featureBtns = featureSection.querySelectorAll('.list > .btn');
+const featureMobileNext = featureSection.querySelector('.list > .after');
+const featureMobilePrevious = featureSection.querySelector('.list > .before');
 const featureFrames = featureSection.querySelectorAll('.content div');
 
 featureBtns.forEach((btn) => {
@@ -39,6 +56,51 @@ featureBtns.forEach((btn) => {
         });
     }
 });
+
+featureMobileNext.addEventListener('click', function () {
+    let activeButton = null;
+
+    featureBtns.forEach((button, idx) => {
+        if (button.classList.contains('active')) {
+            button.classList.remove('active');
+            activeButton = idx + 1;
+
+            if (activeButton === featureBtns.length) {
+                activeButton = 0
+            }
+        } 
+    });
+
+    featureFrames.forEach((frame) => {
+        frame.classList.remove('active');
+    })
+
+    featureBtns[activeButton].classList.add('active');
+    featureFrames[activeButton].classList.add('active');
+});
+
+featureMobilePrevious.addEventListener('click', function () {
+    let activeButton = null;
+
+    featureBtns.forEach((button, idx) => {
+        if (button.classList.contains('active')) {
+            button.classList.remove('active');
+            activeButton = idx - 1;
+
+            if (activeButton === -1) {
+                activeButton = featureBtns.length - 1;
+            }
+        } 
+    });
+
+    featureFrames.forEach((frame) => {
+        frame.classList.remove('active');
+    });
+
+    featureBtns[activeButton].classList.add('active');
+    featureFrames[activeButton].classList.add('active');
+});
+
 
 featureBtns[0].classList.add('active');
 featureFrames[0].classList.add('active');

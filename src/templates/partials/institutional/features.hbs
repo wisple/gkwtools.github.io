@@ -1,10 +1,12 @@
 <div class="features" id='vantagens'>
     <div class="list">
+        <div class="arrow before"></div>
         {{#each vantagens}}
-            <div data-select='{{meta.chave}}'>
+            <div class="btn" data-select='{{meta.chave}}'>
                 {{ meta.nome }}
             </div>
         {{/each}}
+        <div class="arrow after"></div>
     </div>
     <div class='content'>
         {{#each vantagens}}
