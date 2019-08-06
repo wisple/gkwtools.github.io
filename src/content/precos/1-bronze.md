@@ -2,5 +2,5 @@
 plano: Silver
 inicio: 5
 fim: 30
-valor: 0,07
+valor: 0,055
 ---
