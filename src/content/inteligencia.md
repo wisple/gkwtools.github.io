@@ -1,4 +1,5 @@
 ---
+gif: gifprecos.gif
 precoMensal: 150
 discontoTrimestral: 30
 discontoSemestral: 35
