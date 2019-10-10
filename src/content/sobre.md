@@ -1,10 +1,10 @@
 ## Por que somos diferentes?
 
-A comunicação efetiva junto ao cliente é um grande desafio para as empresas, mas agora você pode contar com a Wisple para deixar o seu contato mais próximo, amigável e assertivo! Muito além de enviar SMS, nós oferecemos aos nossos clientes INTELIGÊNCIA ARTIFICIAL de alta tecnologia unida a experiência de mais de 13 anos de mercado. 
+Na GKW Tools, nossa equipe acredita que não há nada mais importante para você do que VOCÊ - nosso cliente. Nossa equipe de atendimento ao cliente é treinada para fornecer um serviço rápido, amigável e profissional. Processo de fabricação é realizado com materiais de altissima qualidade e profissionais com elevada experiência. Quando é hora de realizar o envio do seu pedido, cada ferramenta é embalada manualmente e o tudo é verificado novamente antes de sair pela nossa porta. Possuimos uma elevada taxa de previsão, pois tratamos as suas necessidades comerciais como se fossem nossas. 
 
-A Wisple conta com a estratégia que faltava para o seu negócio. Nossa INTÊLIGENCIA ARTIFICIAL evolui a cada uso e devolve dados para sua emrpesa potencializar resultados desde o planejamento da campanha, execução e analise de dados, fornecendo relatórios mais detalhados, precisos, atualizados e cada vez mais inteligentes. A interface Wisple é totalmente desenhada para você, quanto mais você usa, mais inteligente ela fica.
+Estamos sempre em busca de  melhorar o design e a qualidade de nossas ferramentas, bem como nosso processo de fabricação. Somos especializados em manter qualidade com entrega rápida para ferramentas especiais e personalizadas, colocando-nos um passo acima da concorrência.
 
-Temos com objetivo ajudar a sua empresa a alcançar metas de forma ágil e econômica, oferecendo uma experiência única de envio de SMS e comunicação final.
+À medida que a necessidade de fabricação de ferramentas especias continua a crescer, a GKW Tools continuará fornecendo soluções exclusivas aos seus clientes.
 
-Faça um TESTE GRATUITO agora mesmo e venha para o Mundo Wisple, o jeito mais inteligente de enviar SMS.
+
   
