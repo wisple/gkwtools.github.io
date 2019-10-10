@@ -2,4 +2,4 @@
 gif: dado.gif
 ---
 
-**Nossa inteligência artificial coleta dados** para potencializar sua margem de acerto com a ferramenta, auxiliando na melhor forma de envio. Transforme seu investimento em estratégia! 
+Ferramentas Standard são ferramentas básicas para a realização de operações simples, e suas vantagens incluem baixo custo e a possibilidade de produção em grande escala. 

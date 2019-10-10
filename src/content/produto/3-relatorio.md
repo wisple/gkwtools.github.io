@@ -2,4 +2,4 @@
 gif: relatorio.gif
 ---
 
-**A Wisple oferece relatórios** completos com conteúdos relevantes e atualizados. Tenha dados detalhados sobre o seu investimento em comunicação. Venha para a Wisple.
+Analisar qual a necessidade do cliente e Desenvolver Ferramentas específicas, demanda experiência. GKW Tools conta com profissionais com mais de 30 anos de experiência no mercado e oferece as melhores soluções para ajudar sua empresa na produção.

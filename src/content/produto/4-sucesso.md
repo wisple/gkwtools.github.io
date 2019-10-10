@@ -2,4 +2,4 @@
 gif: sucesso.gif
 ---
 
-**Cliente Wisple** têm mais vantagens! Somos uma interface inteligente que ajuda você a potencializar resultados para sua empresa, de maneira assertiva e econômica. Conheça nossos diferencias. 
+Para uma maior durabilidade de suas ferramentas, aposte na Afiação, visto que, depois de algum tempo as ferramentas de corte se desgastam passando a perder as suas propriedades principais, como suas arestas de corte e elementos da geometria do corte.
