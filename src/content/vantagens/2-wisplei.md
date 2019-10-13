@@ -1,10 +1,8 @@
 ---
-nome: Wisple Inteligente
+nome: Diferenciais GKW Tools
 chave: wisple-inteligente
 ---
 
-A interface Wisple inteligente coleta dados a todo instante, potencializa suas campanhas e garante resultados mais precisos e oportunos a cada novo envio. 
+Desde a sua criação, a GKW Tools possui uma reputação de excepcional qualidade, inovação e desempenho como fabricante líder de ferramentas de corte de metal duro. Estamos empenhados em fornecer um excelente serviço e produtos de qualidade aos nossos clientes.  A equipe composta por profissionais que contam com uma elevada experiência no setor.
 
-Na primeira utilização é preciso preencher um formulário personalizado que nos ajudará a entender melhor as suas necessidades. Após preencher o formulário, você terá acesso a dicas de conteúdos com os melhores resultados resultados, dentro do seu segmento. A cada novo envio, esse conteúdo será atualizado e personalizado para se tornar mais e mais efetivo e específico para o seu público. Esses dados são disponibilizados para você nos relatórios e podem complementar suas estratégias de marketing também em outras estratégias, sem custo adicional ;)
-
-E muito mais! Faça um **teste gratuito** agora mesmo e comprove que a Wisple é a maneira mais inteligente de enviar SMS.
+Solicite agora mesmo um orçamento e comprove que a GKW Tools é a maneira mais eficaz de fabricar ferramentas que sua empresa necessita.

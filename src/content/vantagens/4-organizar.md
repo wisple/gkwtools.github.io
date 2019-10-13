@@ -1,8 +1,10 @@
 ---
-nome: Organizar contatos em grupos
+nome: Caracteristicas Ferramentas Metal Duro
 chave: organizar
 ---
 
-Organize seus contatos  de forma muito mais ágil e eficaz, em grupos, e tenha mais controle de suas estratégias. Com a Wisple você tem quantidade ilimitada de grupos de contatos para se organizar conforme sua necessidade. A organização dos dados é um facilitador para melhor entender seu público e separar campanhas de acordo com a o seu planejamento estratégico.
+As ferramentas especiais de metal duro são planejadas e fabricadas conforme o tipo de aplicação ao qual será destinada. As aplicações de usinagem possuem uma diversidade considerável, e para isso, o planejamento dessas ferramentas é fundamental, sendo imprescindível a participação do cliente no processo de criação, onde assim serão definidas as dimensões, tamanhos e modelos de ferramentas mais adequados ao resultado que se queira obter nas respectivas atividades.
 
-E muito mais! Faça um **teste gratuito** agora mesmo e comprove que a Wisple é a maneira mais inteligente de enviar SMS.
+Essas ferramentas especiais de metal duro exercem sempre um papel muito importante em diversos processos industriais, dos mais diferentes segmentos, e por esse motivo, devem apresentar a mais alta qualidade e resistência para os processos em que serão aplicadas.  
+
+A melhor forma de adquirir ferramentas especiais de metal duro com alta eficiência, durabilidade e garantia de segurança é recorrendo a empresas especializadas na fabricação desse tipo de material e que possuam ampla infraestrutura tecnológica capaz de produzir as ferramentas para todo tipo de projeto.

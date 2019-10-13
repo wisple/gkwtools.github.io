@@ -1,10 +1,10 @@
 ---
-nome: Relatórios Completos
+nome: Por que usamos Metal Duro
 chave: relatorios
 ---
 
-Muito mais que entregar SMS, nossa interface devolve dados importantes que serão considerados para os seus próximos envios. A cada utilização, a Wisple atualiza e soma informações que fazem toda a diferença no resultado final de suas campanhas, tornando-as ainda mais assertivas.
+Metal duro é o nome dado a uma liga de carbeto de Tungstênio, produzido por metalurgia do pó. Esse material é obtido pela prensagem e sinterização de uma mistura de pós de carboneto e outros materiais de menor ponto de fusão, chamados ligantes (Cobalto, Níquel, Titânio, Cromo ou uma combinação deles). Após a prensagem - na qual o pó compactado adquire a forma do molde - o composto já tem consistência suficiente para ser usinado na forma desejada ou bem próximo da mesma. Ocorre a seguir o processo de sinterização, que é o aquecimento a uma temperatura suficiente para fundir o metal ligante, preenchendo então os vazios entre os grãos dos carbonetos. O resultado é um material de dureza elevada, entre 75 e 95 HRA, dependendo do teor de ligante e do tamanho de grão do carboneto. As maiores durezas são conseguidas com baixos teores de ligante e tamanho de grão reduzido. Por outro lado, maior tenacidade é obtida aumentando o teor de ligante e/ou aumentando o tamanho de grão.
 
-Os dados coletados e entregues são importantes para atualizar suas estratégias de marketing e nossos relatórios não tem custo adicional. As informações são disponibilizadas para o cliente de forma completa já no primeiro envio, com melhores resultados e respostas a cada utilização. 
+Com os metais duros, as velocidades de corte das ferramentas puderam ser aumentadas na usinagem de aço comum. Passou-se então a ser possível a usinagem de materiais endurecidos, como cilindros de ferro fundido para laminação. Novamente as velocidades de corte puderam ser aumentadas, dessa vez de tal maneira que houve um salto: de 35 m/min com os aços rápidos para 250 a 300 m/min com os metais duros.
 
-E muito mais! Faça um **teste gratuito** agora mesmo e comprove que a Wisple é a maneira mais inteligente de enviar SMS.
+As peças de metal duro revolucionaram a produção das empresas dos mais variados segmentos, pois permitiram avanços e velocidades de corte maiores no processo de usinagem. Também tornaram possível a fabricação de discos e anéis para cilindros de laminação com capacidade de laminar até 10 vezes mais entre reusinagens que os equivalentes em ferro fundido, reduzindo assim as trocas de cilindros que interrompiam a produção.

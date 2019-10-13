@@ -1,8 +1,10 @@
 ---
-nome: Assumir Contéudo
+nome: Tipos de Ferramentas
 chave: assumir
 ---
 
-Com a interface Wisple você pode personalizar suas mensagens,  pois através do seu formulário de utilização, conseguimos entender melhor sua necessidade, gerar mensagens mais eficientes, aumentar o retorno das suas campanhas e torná-las mais dinâmicas e assertivas. A funcionalidade “Assumir Conteúdo” permite que você inclua um ou mais parâmetros de contatos a fim de aproximar e personalizar seu texto. E você ainda pode agendar uma ou mais mensagens para grupos, quando quiser.  
+O mercado tem oferecido cada vez mais tipos de Ferramentas De Metal Duro. Entre os vários tipos de ferramentas que são fabricadas em metal duro, vamos destacar duas: 
 
-E muito mais! Faça um **teste gratuito** agora mesmo e comprove que a Wisple é a maneira mais inteligente de enviar SMS.
+- Broca: O uso de Broca De Metal Duro para perfurações, acabamentos em peças e demais artigos em diversos tipos de materiais de alta performance é uma atividade reconhecida no mercado. Uma boa Broca De Metal Duro possui homogeneidade em sua composição, propiciando que as aplicações em que será utilizada não acarretem problemas que prejudicam a segurança dos profissionais, como no caso de fissuras e demais rupturas associadas. Os ganhos associados em adquirir uma Broca de Metal Duro são inúmeros, seja pela redução de custos com reposição, quanto pelos lucros inerentes de uma produção de alta qualidade e que cumpre todas as metas e exigências operacionais.
+
+- Fresa: As Fresas de Metal Duro são utilizadas em grandes variedades de indústrias, incluindo moldes e matrizes, medicina, aeroespacial, geração de energia e usinagem em geral. Elas são são resistentes e desprovidas de imperfeições ou descontinuidades. As principais Vantagens das Fresas de Metal Duro são: eliminar a vibração, alta velocidade de corte, alta produtividade, melhor acabamento, versatilidade nas aplicações, usinagem a seco.

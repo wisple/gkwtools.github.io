@@ -6,5 +6,5 @@ message3: Obrigado por concluir sua compra, João. Use o cupom JOAO5 na sua pró
 
 ## Qualidade, Inovação e Performance em Fabricação e Afiação
 
-Conheça novas funcionalidades e descubra novas estratégias de comunicação para sua empresa.
+Conheça nossa qualidade em fabricação e descubra novas estratégias para aumento da produção na sua empresa.
 

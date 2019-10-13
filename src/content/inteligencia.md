@@ -5,12 +5,12 @@ discontoSemestral: 35
 discontoAnual: 45
 ---
 
-### Wisple Inteligente
+### Importância de escolher sua Ferramenta com GKW Tools
 
-Aposto que você ja conversou com um *bot*, que viu as redes sociais te sugerindo amizades, colocando posts mais relevantes na sua timeline e até mesmo aquela propaganda de algo que você estava vendo na internet, isso é o poder da Inteligencia Artifical agindo no mercado.
+O processo de industrialização no Brasil, e por conseguinte da mudança de uma sociedade rural e agrária para uma urbana e industrial, iniciou-se na segunda metade do século XIX, ganhou impulso nas primeiras décadas do século XX e teve um grande salto no período pós-Segunda Guerra Mundial.
 
-De acordo com Gartner, até 2020, cerca de 85% das interações dos consumidores com as companhias e marcas serão feitas usando unicamente Inteligencia Artificial.
+A industrialização constituiu, historicamente, o fator mais poderoso no processo de aceleração do crescimento econômico. O setor industrial exerceu impacto dinâmico sobre outros setores da economia e sobre todo o ambiente social e institucional.  
 
-Moldar contatos para poder customizar suas mensagens com dados é algo extremamente relevante quando administramos centenas de contatos, mas e se esses campos fossem usados para analisar perfil de consumidor e até mesmo gerar relatórios mais completos. E se é possível gerar isso, por que não utilizar a I.A. para sugerir campanhas que podem aumentar sua produtivade. 
+A fabricação de ferramentas de metal duro é essencial, tendo em vista que resulta em ferramentas que podem ser utilizadas para usinagem manual, ou em máquinas-ferramenta, ou seja, máquina para corte, para dar forma, ou acabamento a peças de material sólido, entre eles a madeira, o metal e outros. Ela também produz peças de extrema importância para a realização de serviços direcionados às mais diversas finalidades, como cortes, chanfros, perfurações e acabamentos em materiais de grande resistência, inclusive peças de aço. 
 
-Essa é a nossa proposta com o Wisple Inteligente! Quanto mais você usa, mais inteligente ele fica ;)
+Para clientes que procuram o máximo de qualidade e excelência e que desejam investir na fabricação de ferramentas de metal duro do mais elevado padrão em qualidade, a empresa GKW Tools se mostra uma opção difereciada do mercado, pois possuimos atendimento especializado, qualidade no material utilizado, nossa produção conta com maquinas de ultima geração e colaboradores com mais de 30 anos de experiência no segmento.
