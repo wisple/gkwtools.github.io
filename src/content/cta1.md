@@ -1,6 +1,6 @@
 ---
-cta: Quero eficiência no meu envio!
+cta: Solicite Orçamento
 link: https://web.wisple.app/criar-usuario
 ---
 
-Envie SMS de forma simples e eficiênte! Venha para a Wisple e use a Inteligência Artificial a seu favor!
+Solicite agora um orçamento e se surpreenda com nossa qualidade e agilidade na entrega!

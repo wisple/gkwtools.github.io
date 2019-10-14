@@ -1,6 +1,6 @@
 ---
-cta: Quero mais dados!
+cta: Solicite Orçamento
 link: https://web.wisple.app/criar-usuario
 ---
 
-Muito mais do que enviar SMS, a Wisple disponibiliza dados e resultados reais para você investir no melhor para sua empresa. Façar um **teste gratuíto**.
+GKW Tools atende a sua necessidade de ferramentas sob medida!
