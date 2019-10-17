@@ -1,6 +1,6 @@
 ---
 cta: Solicite Orçamento
-link: https://web.wisple.app/criar-usuario
+link: https://forms.gle/WoKvJ8KMLgtxDy6Z6
 ---
 
 GKW Tools atende a sua necessidade de ferramentas sob medida!
