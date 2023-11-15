@@ -1,5 +1,0 @@
-User-agent: *
-Disallow: /assets
-Allow: /assets/images
-
-Sitemap: https://www.wisple.app/sitemap.xml
